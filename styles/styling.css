@@ -170,8 +170,11 @@ a:link, a:visited {
 
 body {
   border: 4px solid #788f58;
+  ;
   }
-
+.flex{
+  background-color: #e0cfc9;
+}
   progress{
     -webkit-appearance: none;
   }
