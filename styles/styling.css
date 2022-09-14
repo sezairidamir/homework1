@@ -141,29 +141,37 @@ a:link, a:visited {
 }
 
 .MSTeams{
+  -webkit-progress-bar: none;
   position: absolute;
   right: 580px;
-  top: 640px;
+  top: 642px;
+}
+::-webkit-progress-bar{
+  background-color: #788f58;
 }
 
 .OP{
   position: absolute;
   right: 580px;
-  top: 658px;
+  top: 661px;
 }
 
 .MM{
   position: absolute;
   right: 580px;
-  top: 677px;
+  top: 680px;
 }
 
 .DC{
   position: absolute;
   right: 580px;
-  top: 696px;
+  top: 699px;
 }
 
 body {
   border: 4px solid #788f58;
+  }
+
+  progress{
+    -webkit-appearance: none;
   }
