@@ -16,38 +16,21 @@ body{
 
 .title {
  text-align: center;
+ padding: 10px;
 }
 
 .left{
-padding: 15px;
-  
+padding: 4%;
 }
 
 .right{
-  float: right;
-  padding: ;
+  padding: 4%;
 }
+
 .flex{
   display: flex;
-  justify-content: center;
   text-align: center;
 }
-
-
-
-
-.OP{
-  position: absolute;
-  right: 580px;
-  top: 661px;
-}
-
-.MM{
-  position: absolute;
-  right: 580px;
-  top: 680px;
-}
-
 
 a:link {
   text-decoration: none;
@@ -132,27 +115,12 @@ a:hover {
 .col-12 {width: 100%;}
 
 .summary1{
-  width: 96%;
+  width: 93%;
 }
-
-.education{
-  width: 96%;
-}
-
 .skills {
-  width: 96%;
+  width: 93%;
 }
 
-.contact{
-  width: 96%;
-}
 
-.professionalexperience{
-  width: 96%;
-}
-
-.interests{
-  width: 96%;
-}
 
 
