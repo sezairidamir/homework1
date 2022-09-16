@@ -9,49 +9,32 @@ body{
 }
 
 .container {
-    display: flex;
-    text-align: justify;
-    color: white;
-  }
+  display: flex;
+  text-align: justify;
+  color: white;
+}
 
-  .title {
-    display: flex;
+.title {
+ text-align: center;
 }
 
 .left{
- 
-  right: 50px;
-  width: 45%;
-  text-align: right;
-  padding: 10px;
+padding: 15px;
   
 }
 
 .right{
   float: right;
-  left: 50px;
-  width: 45%;
- 
-  padding: 10px;
-  text-align: justify;
-  direction: ltr;
+  padding: ;
 }
 .flex{
   display: flex;
   justify-content: center;
-  background-color: whitesmoke ;
+  text-align: center;
 }
 
-.MSTeams{
-  -webkit-progress-bar: none;
-  position: absolute;
-  right: 580px;
-  top: 642px;
-}
-::-webkit-progress-bar{
-  background-color: #788f58;
-  position: fi;
-}
+
+
 
 .OP{
   position: absolute;
@@ -65,29 +48,18 @@ body{
   top: 680px;
 }
 
-.DC{
-  position: absolute;
-  right: 580px;
-  top: 699px;
-}
-
-
-
 
 a:link {
-    text-decoration: none;
-  }
-  
-  
-  
+  text-decoration: none;
+}
+
 a:hover {
     text-decoration: underline;
   }
   
-
 .skills li{
-  margin: 20px 0;
-}
+    margin: 20px 0;
+  }
 
 .bar{
   background-color: #353b48;
@@ -123,55 +95,64 @@ a:hover {
   text-decoration-thickness: 2.5px;
 }
 
-#i1{
-  border-radius: 25px;
-  background: #989da6;
-  padding: 10px;
-  width: 150px;
- 
+@media only screen and (max-width: 768px) {
+
+  [class*="col-"] {
+
+    width: 100%;
+
+   
+
+  }
+
+
+
 }
 
-#i2{
-  border-radius: 25px;
-  background: #989da6;
-  padding: 10px;
-  width: 120px;
+@media only screen and (max-width: 768px) {
+
+  .flex {
+    flex-direction: column;
+    width: 100%;
+  }
+
 }
 
-#i3{
-  border-radius: 25px;
-  background: #989da6;
-  padding: 10px;
-  width: 75px;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 35%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.summary1{
+  width: 96%;
 }
 
-#i4{
-  border-radius: 25px;
-  background: #989da6;
-  padding: 10px;
-  width: 50px;
-  
+.education{
+  width: 96%;
 }
 
-#i5{
-  border-radius: 25px; 
-  background: #989da6;
-  padding: 10px;
-  width: 97px;
+.skills {
+  width: 96%;
 }
 
-#i6{
-  border-radius: 25px;
-  background: #989da6;
-  padding: 10px;
-  width: 43px;
+.contact{
+  width: 96%;
 }
 
-.parent {
-  text-align: left;
+.professionalexperience{
+  width: 96%;
 }
-.child {
-  display: inline-block;
-  vertical-align: left;
+
+.interests{
+  width: 96%;
 }
+
 
